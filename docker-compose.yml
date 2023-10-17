@@ -19,14 +19,3 @@ services:
     restart: unless-stopped
     ports:
       - '3000:5050'
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.node.rule=Host(`mathdesigns.xyz`)"
-      - "traefik.http.routers.node.entrypoints=websecure"
-      - "traefik.http.routers.node.tls=true"
-      - "traefik.http.routers.node.tls.certresolver=production"
-      networks:
-      - traefik_default
-networks:
-  traefik_default:
-    external: true
