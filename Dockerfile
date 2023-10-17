@@ -6,6 +6,9 @@ FROM node:18-alpine AS external-website
 # A small line inside the image to show who made it
 LABEL Developers="MathDesigns"
 
+# The WORKDIR instruction sets the working directory for everything that will happen next
+WORKDIR /usr/src/app
+
 # Copy all local files into the image
 COPY . .
 
