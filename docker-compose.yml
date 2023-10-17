@@ -18,4 +18,15 @@ services:
       - TZ=Europe/Brussels
     restart: unless-stopped
     ports:
-      - '3000:5050'
+      - '3000:3000'
+    networks:
+      - traefik_default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.node.rule=Host(`mathdesigns.xyz`)"
+      - "traefik.http.routers.node.entrypoints=websecure"
+      - "traefik.http.routers.node.tls=true"
+      - "traefik.http.routers.node.tls.certresolver=production"
+networks:
+  traefik_default:
+    external: true
