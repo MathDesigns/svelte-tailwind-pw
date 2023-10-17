@@ -18,7 +18,7 @@ services:
       - TZ=Europe/Brussels
     restart: unless-stopped
     ports:
-      - 3000:5050
+      - '3000:5050'
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.nginx.rule=Host(`mathdesigns.xyz`)"
