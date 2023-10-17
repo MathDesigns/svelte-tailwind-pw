@@ -1,4 +1,5 @@
 FROM node:18-alpine AS builder
+RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm ci
