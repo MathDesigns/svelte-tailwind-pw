@@ -1,25 +1,16 @@
-#Dockerfile
-
-# Use this image as the platform to build the app
-FROM node:18 AS external-website
-
-# A small line inside the image to show who made it
-LABEL Developers="MathDesigns"
-
-# The WORKDIR instruction sets the working directory for everything that will happen next
+FROM node:18-alpine AS builder
 WORKDIR /app
-
-# Copy all local files into the image
+COPY package*.json .
+RUN npm ci
 COPY . .
-
-# Clean install all node modules
-RUN npm i
-
-# Build SvelteKit app
 RUN npm run build
+RUN npm prune --production
 
-# The USER instruction sets the user name to use as the default user for the remainder of the current stage
-USER node:node
-
-# This is the command that will be run inside the image when you tell Docker to start the container
-CMD ["node","build/index.js"]
+FROM node:18-alpine
+WORKDIR /app
+COPY --from=builder /app/build build/
+COPY --from=builder /app/node_modules node_modules/
+COPY package.json .
+EXPOSE 3000
+ENV NODE_ENV=production
+CMD [ "node", "build" ]
