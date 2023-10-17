@@ -7,7 +7,7 @@ FROM node:18-alpine AS external-website
 LABEL Developers="MathDesigns"
 
 # The WORKDIR instruction sets the working directory for everything that will happen next
-WORKDIR /app
+WORKDIR /src
 
 # Copy all local files into the image
 COPY . .
