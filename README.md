@@ -1,38 +1,57 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# mathdesigns.xyz
 
-## Creating a project
+Docker-ready 🐋 PW/Portfolio\
+Made using Sveltekit and TailwindCSS\
+Ready to run in a Node container
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Authors
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- [@MathDesigns](https://www.github.com/MathDesigns)
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+  git clone https://github.com/MathDesigns/svelte-tailwind-pw
 ```
 
-## Building
-
-To create a production version of your app:
+Go to the project directory
 
 ```bash
-npm run build
+  cd my-project
 ```
 
-You can preview the production build with `npm run preview`.
+Install dependencies
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+Build it
+
+```bash
+  npm run build
+```
+
+Run the build
+
+```bash
+  node build
+```
+
+
+## License
+If you use my project for personal or any other use, please quote me
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
