@@ -2,7 +2,7 @@
   import Layout from "../+layout.svelte";
 </script>
 
-<html lang="en" class="bg-[url('/blob.svg')] bg-fixed bg-cover font-custom">
+<html lang="en" class="bg-[url('/blob.svg')] bg-fixed bg-cover">
   <h1 class="text-center text-5xl font-bold pt-20 text-blueish drop-shadow-md">
     Welcome<br />/home/math
   </h1>
@@ -26,7 +26,7 @@
   </div>
   <div class="flex items-center justify-center pt-10">
     <div
-      class="rounded-md px-4 py-4 m-10 hover:shadow-md bg-purpleish text-white hover:bg-white hover:text-black"
+      class="rounded-md px-4 py-4 m-8 hover:shadow-md bg-purpleish text-white hover:bg-white hover:text-black"
     >
       <h2 class="drop-shadow-md text-3xl">Where it started</h2>
       <p>
@@ -44,7 +44,7 @@
       </p>
     </div>
     <div
-      class="rounded-md px-4 py-4 m-10 shadow-md bg-light-back hover:bg-white"
+      class="rounded-md px-4 py-4 m-8 shadow-md bg-light-back hover:bg-white"
     >
       <h2 class="drop-shadow-md text-blueish text-3xl">Now ATM</h2>
       <p>
@@ -56,7 +56,7 @@
       </p>
     </div>
     <div
-      class="rounded-md px-4 py-4 m-10 hover:shadow-md bg-purpleish text-white hover:bg-white hover:text-black"
+      class="rounded-md px-4 py-4 m-8 hover:shadow-md bg-purpleish text-white hover:bg-white hover:text-black"
     >
       <h2 class="drop-shadow-md text-3xl">What's coming</h2>
       <p>
