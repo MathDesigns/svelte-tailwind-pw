@@ -60,22 +60,21 @@
     >
       <h2 class="drop-shadow-md text-3xl">What's coming</h2>
       <p>
-        In the coming years, I aspire to work at the intersection of technology
-        and innovation, making a tangible impact on society. I'd love
-        contributing to the development of cutting-edge software, I want to be
-        on the frontlines of technological advancement. I envision myself
-        working for a forward-thinking tech company or possibly as an
-        independent developer, collaborating with teams that are pushing the
-        boundaries of what is possible. Solving complex problems, creating
-        user-friendly solutions, and continuously learning and adapting to the
-        ever-evolving tech landscape will be integral to my career. Ultimately,
-        my future career in computer science is not just about professional
-        success but also about making a positive contribution to the world
-        through technology, fostering innovation, and being a part of the
-        exciting developments that shape our future.
+        In the coming years, I'd love contributing to the development of
+        cutting-edge software, I want to be on the frontlines of technological
+        advancement. I envision myself working for a forward-thinking tech
+        company or possibly as an independent developer, collaborating with
+        teams that are pushing the boundaries of what is possible. Solving
+        complex problems, creating user-friendly solutions, and continuously
+        learning and adapting to the ever-evolving tech landscape will be
+        integral to my career. Ultimately, my future career in computer science
+        is not just about professional success but also about making a positive
+        contribution to the world through technology, fostering innovation, and
+        being a part of the exciting developments that shape our future.
       </p>
     </div>
   </div>
+  <footer class="flex justify-center w-full">Matheo Simeoni - 2023</footer>
 </html>
 
 <style lang="postcss">
