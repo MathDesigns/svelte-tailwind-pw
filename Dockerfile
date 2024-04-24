@@ -1,6 +1,6 @@
 #Dockerfile
 # Use this image as the platform to build the app
-FROM node:18 AS external-website
+FROM node:21 AS external-website
 # A small line inside the image to show who made it
 LABEL Developers="MathDesigns"
 # The WORKDIR instruction sets the working directory for everything that will happen next
