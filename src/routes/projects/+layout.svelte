@@ -1,10 +1,10 @@
 <script>
 </script>
 
-<div class="flex py-4 my-4 rounded-full w-1/4 justify-center items-center mx-auto shadow-md">
+<div class="flex py-4 my-4 rounded-full w-1/4 justify-center items-center mx-auto drop-shadow-lg bg-[#1F1F1F] text-white">
 <nav class="space-x-12">
-  <a href="/" class="hover:font-bold rounded-full hover:bg-blueish hover:text-white p-2">Home</a>
-  <a href="/contact" class="hover:font-bold rounded-full hover:bg-blueish hover:text-white p-2">Contact</a>
+  <a href="/" class="rounded-full hover:bg-[#151515] p-2">Home</a>
+  <a href="/contact" class="rounded-full hover:bg-[#151515] p-2">Contact</a>
 </nav>
 </div>
 

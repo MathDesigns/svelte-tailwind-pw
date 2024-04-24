@@ -1,10 +1,10 @@
-<html lang="en" class="bg-[url('/animated-waves.svg')] bg-fixed bg-cover">
-  <h1 class="text-center text-5xl font-bold text-blueish pt-20 drop-shadow-md">
+<html lang="en" class="bg-[url('/animated-waves.svg')] bg-fixed bg-cover bg-[#151515]">
+  <h1 class="text-center text-5xl font-bold text-white pt-20 drop-shadow-md">
     Projects
   </h1>
   <div class="flex items-center justify-center pt-10">
     <div
-      class="rounded-md px-4 py-4 m-8 shadow-2xl hover:bg-white"
+      class="rounded-md px-4 py-4 m-8 shadow-2xl text-white hover:bg-white hover:text-black"
     >
       <h2 class="drop-shadow-md text-3xl">Under your nose 💻</h2>
       <p>
@@ -17,7 +17,7 @@
         >Learn more ↗️</a
       >
     </div>
-    <div class="rounded-md px-4 py-4 m-8 shadow-2xl hover:bg-white">
+    <div class="rounded-md px-4 py-4 m-8 shadow-2xl text-white hover:bg-white hover:text-black">
       <h2 class="drop-shadow-md text-3xl">Coming soon... 🤫</h2>
       <p>
         Yeah, it is what it is. Wait and see, it's coming... or maybe it isn't
@@ -29,7 +29,7 @@
       >
     </div>
     <div
-      class="rounded-md px-4 py-4 m-8 shadow-2xl hover:bg-white"
+      class="rounded-md px-4 py-4 m-8 shadow-2xl text-white hover:bg-white hover:text-black"
     >
       <h2 class="drop-shadow-md text-3xl">Coming soon... 🤫</h2>
       <p>
