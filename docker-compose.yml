@@ -23,7 +23,7 @@ services:
       - traefik_default
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.node.rule=Host(`mathdesigns.xyz`)"
+      - "traefik.http.routers.node.rule=Host(`mathdesigns.app`)"
       - "traefik.http.routers.node.entrypoints=websecure"
       - "traefik.http.routers.node.tls=true"
       - "traefik.http.routers.node.tls.certresolver=production"
